@@ -1,0 +1,43 @@
+ @font-face {
+            font-family: FredokaOne;
+            src: url(font/FredokaOne-Regular.ttf);
+        }
+        
+        * {
+            background-image: url('https://cdn.mos.cms.futurecdn.net/2LVWjEV65antgXRgEAXJRb-1200-80.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        
+        .countdown-timer {
+            size: 100% 100%;
+            text-align: center;
+            margin-top: 15%;
+            display: flex;
+            font-family: FredokaOne;
+        }
+        
+        .timer {
+            position: relative;
+            width: 20%;
+            font-size: 32;
+            margin-left: 50px;
+            height: 200px;
+            border-radius: 60%;
+            backdrop-filter: blur(10px);
+            background: transparent;
+            border: 1px solid black;
+        }
+        
+        .mm {
+            background: transparent;
+        }
+        
+        .test {
+            position: absolute;
+            background: transparent;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
